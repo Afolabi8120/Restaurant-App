@@ -1,0 +1,64 @@
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\Restaurant Software.exe.config
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\Restaurant Software.exe
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\Restaurant Software.pdb
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmCashier.resources
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmLogin.resources
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.Properties.Resources.resources
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant Software.csproj.GenerateResource.Cache
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant Software.exe
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant Software.pdb
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmChangePassword.resources
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmSystemLock.resources
+c:\users\personal computer\documents\visual studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmMainmenu.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmCategory.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmProduct.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmStoreSettings.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmUser.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\mysql.data.dll
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\mysqlbackup.dll
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmReceipt.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\RdlCompile.cache
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\RdlCompile.compiled
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmSalesHistory.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmBarcodeReport.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmGenerateBarcode.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmSettings.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmBackUpDatabase.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmRestoreDatabase.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmReturnProduct.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmOverAllReport.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmSalesSummaryReport.resources
+C:\Users\PERSONAL COMPUTER\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant Software.csprojResolveAssemblyReference.cache
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\Restaurant Software.exe.config
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant Software.exe
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant Software.pdb
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\Restaurant Software.exe
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\Restaurant Software.pdb
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\mysql.data.dll
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\mysqlbackup.dll
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant Software.csprojResolveAssemblyReference.cache
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmBackUpDatabase.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmBarcodeReport.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmCashier.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmCategory.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmChangePassword.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmGenerateBarcode.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmLogin.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmMainmenu.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmOverAllReport.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmProduct.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmReceipt.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmRestoreDatabase.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmReturnProduct.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmSalesHistory.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmSalesSummaryReport.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmSettings.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmStoreSettings.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmSystemLock.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.frmUser.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant_Software.Properties.Resources.resources
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\Restaurant Software.csproj.GenerateResource.Cache
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\RdlCompile.cache
+C:\Users\TEMIDAYO\Documents\Visual Studio 2012\Projects\Restaurant Software\Restaurant Software\obj\Debug\RdlCompile.compiled

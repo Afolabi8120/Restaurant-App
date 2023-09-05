@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79A99C49-FC02-4B34-9C1D-B6D2384EDA96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Restaurant_Software</RootNamespace>
+    <AssemblyName>Restaurant Software</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="mysql.data">
+      <HintPath>..\..\Flat_Datagrid\Flat_Datagrid\bin\Debug\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="mysqlbackup">
+      <HintPath>..\..\Flat_Datagrid\Flat_Datagrid\bin\Debug\mysqlbackup.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zen.Barcode.Core">
+      <HintPath>..\..\Inventory_Software\Inventory_Software\bin\Debug\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassDB.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmBackUpDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackUpDatabase.Designer.cs">
+      <DependentUpon>frmBackUpDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBarcodeReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarcodeReport.Designer.cs">
+      <DependentUpon>frmBarcodeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCashier.Designer.cs">
+      <DependentUpon>frmCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategory.Designer.cs">
+      <DependentUpon>frmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenerateBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerateBarcode.Designer.cs">
+      <DependentUpon>frmGenerateBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainmenu.Designer.cs">
+      <DependentUpon>frmMainmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOverAllReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOverAllReport.Designer.cs">
+      <DependentUpon>frmOverAllReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduct.Designer.cs">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceipt.Designer.cs">
+      <DependentUpon>frmReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRestoreDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRestoreDatabase.Designer.cs">
+      <DependentUpon>frmRestoreDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReturnProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReturnProduct.Designer.cs">
+      <DependentUpon>frmReturnProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesHistory.Designer.cs">
+      <DependentUpon>frmSalesHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesSummaryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesSummaryReport.Designer.cs">
+      <DependentUpon>frmSalesSummaryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStoreSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStoreSettings.Designer.cs">
+      <DependentUpon>frmStoreSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystemLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemLock.Designer.cs">
+      <DependentUpon>frmSystemLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BarcodeReport.rdlc" />
+    <EmbeddedResource Include="frmBackUpDatabase.resx">
+      <DependentUpon>frmBackUpDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBarcodeReport.resx">
+      <DependentUpon>frmBarcodeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCashier.resx">
+      <DependentUpon>frmCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategory.resx">
+      <DependentUpon>frmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerateBarcode.resx">
+      <DependentUpon>frmGenerateBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainmenu.resx">
+      <DependentUpon>frmMainmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOverAllReport.resx">
+      <DependentUpon>frmOverAllReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduct.resx">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceipt.resx">
+      <DependentUpon>frmReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRestoreDatabase.resx">
+      <DependentUpon>frmRestoreDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReturnProduct.resx">
+      <DependentUpon>frmReturnProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesHistory.resx">
+      <DependentUpon>frmSalesHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesSummaryReport.resx">
+      <DependentUpon>frmSalesSummaryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStoreSettings.resx">
+      <DependentUpon>frmStoreSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemLock.resx">
+      <DependentUpon>frmSystemLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Receipt.rdlc" />
+    <EmbeddedResource Include="SalesSummary.rdlc" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
